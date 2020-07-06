@@ -1,0 +1,76 @@
+@import './colors.scss';
+
+aside {
+
+    button {
+        background-color: $primary-dark;
+        border: none;
+        outline: none;
+        border-radius: 2rem;
+        margin-top: 2rem;
+        font-size: large;
+        color: $primary-text;
+        width: 80%;
+        height: 3rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    
+    form {
+        width: 100%;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        & div {
+            display: flex;
+            flex-direction: column;
+
+            label {
+                padding: 1rem;
+            }
+
+            input {
+                width: 80%;
+                height: 3rem;
+                border-radius: 2rem;
+                border: none;
+                outline: none;
+                padding: 1rem;
+                color: $secondary-text;
+
+                &:hover {
+                    font-size: large;
+                }
+
+                &::placeholder {
+                    font-size: 1rem;
+                }
+            }
+        }
+        
+    }
+
+    section {
+
+        h2 {
+            padding: 1rem;
+        }
+
+        .display-result {
+            display: none;
+        }
+
+        > div {
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+
+            button {
+                // display: none;
+                width: 100%;
+            }
+        }
+    }
+}

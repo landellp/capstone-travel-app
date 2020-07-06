@@ -1,0 +1,18 @@
+@import './colors.scss';
+@import './fonts.scss';
+@import './header.scss';
+@import './main.scss';
+@import './footer.scss';
+
+* {
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: 'Anonymous Pro', 'Courier New', Courier, monospace;
+    margin: 0;
+}

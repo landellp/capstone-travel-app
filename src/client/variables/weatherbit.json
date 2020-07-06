@@ -1,0 +1,9 @@
+{
+    "key": "b78cb2707e23473d9320de520d22c59f",
+    "current": {
+        "baseUrl" : "https://api.weatherbit.io/v2.0/current?"
+    },
+    "future": {
+        "baseUrl": "https://api.weatherbit.io/v2.0/forecast/daily?"
+    }
+}

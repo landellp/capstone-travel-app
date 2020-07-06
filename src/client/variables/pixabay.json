@@ -1,0 +1,5 @@
+{
+    "baseUrl" : "https://pixabay.com/api/?",
+    "apiKey": "17237264-8919960d157d855e965e1e5cf",
+    "image_type": "photo"
+}
